@@ -1,2 +1,29 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#wrap {
+    margin-inline: auto;
+    padding-inline: 10px;
+    width: 640px;
+}
+
+#searchContainer {
+    display: flex;
+    height: 60px;
+    border: 1px solid red;
+    border-radius: 100px;
+}
+
+#txtSearch,
+#btnSearch {
+    flex: 1 1 0;
+    background-color: transparent;
+}
 
 /*# sourceMappingURL=/main.af46ece4.css.map */
